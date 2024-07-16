@@ -1,0 +1,19 @@
+{
+    "name": "terman/negopharmphp",
+    "autoload": {
+        "psr-4": {
+            "Terman\\Negopharmphp\\": "www/negopharm/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ohgyuchan",
+            "email": "gyu3637@gmail.com"
+        }
+    ],
+    "require": {
+        "google/cloud-firestore": "^0.1.0",
+        "google/auth": "^1.41",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
